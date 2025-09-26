@@ -72,7 +72,7 @@ export function Header() {
         <GoTop />
         <Refresh />
         <Github />
-        <Menu />
+        {/* <Menu /> */}
       </span>
     </>
   )
