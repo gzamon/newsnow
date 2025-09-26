@@ -48,7 +48,7 @@ function Refresh() {
 export function Header() {
   return (
     <>
-      <span className="flex justify-self-start">
+      {/* <span className="flex justify-self-start">
         <Link to="/" className="flex gap-2 items-center">
           <div className="h-10 w-10 bg-cover" title="logo" style={{ backgroundImage: "url(/icon.svg)" }} />
           <span className="text-2xl font-brand line-height-none!">
@@ -62,7 +62,7 @@ export function Header() {
         <a target="_blank" href={`${Homepage}/releases/tag/v${Version}`} className="btn text-sm ml-1 font-mono">
           {`v${Version}`}
         </a>
-      </span>
+      </span> */}
       <span className="justify-self-center">
         <span className="hidden md:(inline-block)">
           <NavBar />
